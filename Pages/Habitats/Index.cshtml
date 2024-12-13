@@ -6,6 +6,25 @@
     ViewData["Title"] = "Home page";
 }
 
+<hr class="my-4">
+
+    <div class="row">
+        <form class="d-flex" role="search" asp-page="./Index" method="get">
+
+            <div class="col-3">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input class="form-control me-2" type="search" name="CurrentSearch" value="@Model.CurrentSearch" placeholder="Search monsters...">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+        
+<hr class="my-4">
 
 
 <div id="MonsterCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -66,8 +85,9 @@
                 <p class="fs-5">The Witcher Schools' Guide to Monsters and their Habitats.</p>
             </div>
         </div>
-        
+
         <hr class="my-4">
+
 
         @{
             int index = 0; ///// tracker
@@ -88,6 +108,7 @@
                     </div>
                 </div>
             }
+            
             else // alternate
             {
                 <div class="row">

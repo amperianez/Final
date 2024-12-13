@@ -18,6 +18,11 @@ namespace Final.Pages_Habitats
         public IList<Monster> Monsters { get; set; } = new List<Monster>();
         public int? SelectedHabitatId { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string CurrentSearch { get; set; } = string.Empty;
+
+
+
         public async Task OnGetAsync(int? habitatId)
         {
             Habitats = await _context.Habitats!.ToListAsync();
@@ -25,6 +30,7 @@ namespace Final.Pages_Habitats
             ///// info loading for the carosel
             Monsters = await _context.Monsters!.Include(m => m.Weakness).ToListAsync();
 
+            
             if (habitatId.HasValue)
             {
                 SelectedHabitatId = habitatId;
@@ -37,6 +43,23 @@ namespace Final.Pages_Habitats
                     .Select(mh => mh.Monster)
                     .ToListAsync();
             }
+
+
+            //// query
+            var query = _context.Monsters!.Select(m => m);
+
+            
+            if (!string.IsNullOrEmpty(CurrentSearch))
+            {
+                query = query.Where(m => m.MonsterName.ToUpper().Contains(CurrentSearch.ToUpper()) ||
+                                        m.Description.ToUpper().Contains(CurrentSearch.ToUpper()));
+            }
+
+            Monsters = await query.ToListAsync();
+
+
+
+            
         }
 
     }

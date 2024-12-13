@@ -20,6 +20,17 @@ namespace Final.Pages_Habitats
 
         public Habitat Habitat { get; set; } = default!;
         public List<Monster> Monsters { get; set; } = new List<Monster>();
+        
+
+        [BindProperty(SupportsGet = true)]
+        public string CurrentSort { get; set; } = string.Empty;
+
+        public int TotalPages { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public int PageNum { get; set; } = 1;
+        public int PageSize { get; set; } = 4; 
+
+
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -43,9 +54,34 @@ namespace Final.Pages_Habitats
             }
 
             Habitat = habitat;
-            Monsters = habitat.MonsterHabitats!
+
+            ////
+            ///
+            
+            var query = habitat.MonsterHabitats!
                 .Select(mh => mh.Monster)
+                .AsQueryable();
+
+            switch (CurrentSort)
+            {
+                case "name_asc":
+                    query = query.OrderBy(m => m.MonsterName);
+                    break;
+                case "name_desc":
+                    query = query.OrderByDescending(m => m.MonsterName);
+                    break;
+                default:
+                    break;
+            }
+
+            TotalPages = (int)Math.Ceiling(query.Count() / (double)PageSize);
+
+            Monsters = query
+                .Skip((PageNum - 1) * PageSize)
+                .Take(PageSize)
                 .ToList();
+
+
 
             return Page();
         }

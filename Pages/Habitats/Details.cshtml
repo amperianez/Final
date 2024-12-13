@@ -9,6 +9,7 @@
 
         <div class="col-12">
             <img src="@Model.Habitat.ImageUrl" class="img-fluid rounded" alt="@Model.Habitat.HabitatName image">
+
             <div class="p-3 text-center">
                 <h3>@Model.Habitat.HabitatName</h3>
                 <p class="fs-5">@Model.Habitat.HabitatDescription</p>
@@ -18,23 +19,38 @@
 
         <hr class="my-4">
 
+        <!-- sorting -->
+        <div class="text-end mb-3">
+
+            @{
+                var nameSort = Model.CurrentSort == "name_asc" ? "name_desc" : "name_asc";
+            }
+            <a asp-route-id="@Model.Habitat.HabitatID" asp-route-CurrentSort="@nameSort" asp-route-PageNum="@Model.PageNum" class="btn btn-outline-light">
+                Sort by Name (@(Model.CurrentSort == "name_asc" ? "Descending" : "Ascending"))
+            </a>
+
+        </div>
+
+        <!-- mlist -->
         @foreach (var monster in Model.Monsters)
         {
             <div class="row">
-
                 <div class="col-7">
-                    <h3>@monster.MonsterName.<span class="text-secondary"> @monster.Species</span></h3>
+
+
+                    <h3>@monster.MonsterName<span class="text-secondary"> @monster.Species</span></h3>
                     <p class="fs-5" style="color: gray;">@monster.Description</p>
                     <h4>Weakness</h4>
                     <p>@monster.Weakness?.WeaknessDescription</p>
 
                     <h4>Countermeasures</h4>
-
                     <ul>
+
                         @foreach (var countermeasure in monster.Countermeasures!)
                         {
                             <li>@countermeasure.TypeAndSubname</li>
                         }
+
                     </ul>
                 </div>
 
@@ -45,9 +61,42 @@
             </div>
             <hr class="my-4">
         }
+
+        <!-- pag -- -- --  -->
+        
+        <div class="text-center my-4">
+            @{
+                var prevDisabled = Model.PageNum <= 1 ? "disabled" : "";
+                var nextDisabled = Model.PageNum >= Model.TotalPages ? "disabled" : "";
+            }
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+
+
+
+                    <!-- prev  -->
+                    <li class="page-item @prevDisabled">
+                        <a class="page-link" asp-route-id="@Model.Habitat.HabitatID" asp-route-PageNum="@(Model.PageNum - 1)" asp-route-CurrentSort="@Model.CurrentSort">
+                            Previous
+                        </a>
+                    </li>
+
+
+
+                    <!-- nxt -->
+                    <li class="page-item @nextDisabled">
+                        <a class="page-link" asp-route-id="@Model.Habitat.HabitatID" asp-route-PageNum="@(Model.PageNum + 1)" asp-route-CurrentSort="@Model.CurrentSort">
+                            Next
+                        </a>
+                    </li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="text-center my-4">
+        <a asp-page="./Index" class="btn btn-secondary">Back to bestiary</a>
     </div>
 </body>
-
-<div class="text-center my-4">
-    <a asp-page="./Index" class="btn btn-secondary">Back to bestiary</a>
-</div>
