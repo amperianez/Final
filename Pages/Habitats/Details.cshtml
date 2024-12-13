@@ -1,0 +1,53 @@
+@page
+@model Final.Pages_Habitats.DetailsModel
+@{
+    ViewData["Title"] = Model.Habitat.HabitatName;
+}
+
+<body style="background-color: black; color: white;">
+    <div class="row">
+
+        <div class="col-12">
+            <img src="@Model.Habitat.ImageUrl" class="img-fluid rounded" alt="@Model.Habitat.HabitatName image">
+            <div class="p-3 text-center">
+                <h3>@Model.Habitat.HabitatName</h3>
+                <p class="fs-5">@Model.Habitat.HabitatDescription</p>
+            </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        @foreach (var monster in Model.Monsters)
+        {
+            <div class="row">
+
+                <div class="col-7">
+                    <h3>@monster.MonsterName.<span class="text-secondary"> @monster.Species</span></h3>
+                    <p class="fs-5" style="color: gray;">@monster.Description</p>
+                    <h4>Weakness</h4>
+                    <p>@monster.Weakness?.WeaknessDescription</p>
+
+                    <h4>Countermeasures</h4>
+
+                    <ul>
+                        @foreach (var countermeasure in monster.Countermeasures!)
+                        {
+                            <li>@countermeasure.TypeAndSubname</li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="col-5">
+                    <img src="@monster.ImageUrl" class="img-fluid float-end rounded" alt="@monster.MonsterName">
+                </div>
+
+            </div>
+            <hr class="my-4">
+        }
+    </div>
+</body>
+
+<div class="text-center my-4">
+    <a asp-page="./Index" class="btn btn-secondary">Back to bestiary</a>
+</div>

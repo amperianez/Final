@@ -1,0 +1,109 @@
+@page 
+@model Final.Pages_Habitats.IndexModel
+
+
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div id="MonsterCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    
+    <div class="carousel-indicators">
+        @for (int i = 0; i < Model.Monsters.Count; i++)
+        {
+            <button type="button" data-bs-target="#MonsterCarousel" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")" aria-current="@(i == 0 ? "true" : "false")" aria-label="Slide @(i + 1)"></button>
+        }
+    </div>
+
+    <!------------------------->
+
+
+    <div class="carousel-inner">
+
+        @for (int i = 0; i < Model.Monsters.Count; i++)
+
+        {
+            <div class="carousel-item @(i == 0 ? "active" : "")">
+
+                <img src="@Model.Monsters[i].ImageUrl" class="d-block w-100" alt="@Model.Monsters[i].MonsterName" style="max-height: 1200px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px 2px black">
+                    <h5>@Model.Monsters[i].MonsterName</h5>
+                    <p>@Model.Monsters[i].Description</p>
+                </div>
+            </div>
+        }
+
+    </div>
+
+    <!--  -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#MonsterCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#MonsterCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+
+</div>
+
+
+
+<!-- habitat list -->
+<hr class="my-4">
+
+<body style="background-color: black; color: white;">
+    <div class="row">
+        <div class="col-12">
+            <img src="img/WitcherSchools.png" class="img-fluid rounded" alt="banner image">
+            <hr class="my-4">
+            <div class="p-3 text-center">
+                <h1>Habitats</h1>
+                <p class="fs-5">The Witcher Schools' Guide to Monsters and their Habitats.</p>
+            </div>
+        </div>
+        
+        <hr class="my-4">
+
+        @{
+            int index = 0; ///// tracker
+        }
+
+        @foreach (var habitat in Model.Habitats)
+        {
+            if (index % 2 == 0) // cascade 1
+            {
+                <div class="row">
+                    <div class="col-7">
+                        <h3>@habitat.HabitatName.<span class="text-secondary"></span></h3>
+                        <p class="fs-5" style="color: gray;">@habitat.HabitatDescription</p>
+                        <a asp-page="./Details" asp-route-id="@habitat.HabitatID" class="btn btn-primary">Explore</a>
+                    </div>
+                    <div class="col-5">
+                        <img src="@habitat.ImageUrl" class="img-fluid float-end rounded" alt="@habitat.HabitatName image">
+                    </div>
+                </div>
+            }
+            else // alternate
+            {
+                <div class="row">
+                    <div class="col-5">
+                        <img src="@habitat.ImageUrl" class="img-fluid float-start rounded" alt="@habitat.HabitatName image">
+                    </div>
+                    <div class="col-7">
+                        <h3>@habitat.HabitatName.<span class="text-secondary"></span></h3>
+                        <p class="fs-5" style="color: gray;">@habitat.HabitatDescription</p>
+                        <a asp-page="./Details" asp-route-id="@habitat.HabitatID" class="btn btn-primary">Explore</a>
+                    </div>
+                </div>
+            }
+            
+            <hr class="my-4">
+            index++;
+        }
+    </div>
+</body>

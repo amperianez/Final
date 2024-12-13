@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Final.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Final.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Alghoul.png",
+      "PackagePath": "staticwebassets\\img\\Alghoul.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\ArachasQueen.png",
+      "PackagePath": "staticwebassets\\img\\ArachasQueen.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Botchling.png",
+      "PackagePath": "staticwebassets\\img\\Botchling.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Chort.png",
+      "PackagePath": "staticwebassets\\img\\Chort.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Cities.png",
+      "PackagePath": "staticwebassets\\img\\Cities.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Cockatrice.png",
+      "PackagePath": "staticwebassets\\img\\Cockatrice.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Cyclops.png",
+      "PackagePath": "staticwebassets\\img\\Cyclops.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Doppler.png",
+      "PackagePath": "staticwebassets\\img\\Doppler.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Drowner.png",
+      "PackagePath": "staticwebassets\\img\\Drowner.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Ekimmara.png",
+      "PackagePath": "staticwebassets\\img\\Ekimmara.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\EndregaWarrior.png",
+      "PackagePath": "staticwebassets\\img\\EndregaWarrior.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Fields.png",
+      "PackagePath": "staticwebassets\\img\\Fields.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Fiend.png",
+      "PackagePath": "staticwebassets\\img\\Fiend.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Foglet.png",
+      "PackagePath": "staticwebassets\\img\\Foglet.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Forest.png",
+      "PackagePath": "staticwebassets\\img\\Forest.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Gargoyle.png",
+      "PackagePath": "staticwebassets\\img\\Gargoyle.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Ghoul.png",
+      "PackagePath": "staticwebassets\\img\\Ghoul.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Golem.png",
+      "PackagePath": "staticwebassets\\img\\Golem.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\GraveHag.png",
+      "PackagePath": "staticwebassets\\img\\GraveHag.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Griffin.png",
+      "PackagePath": "staticwebassets\\img\\Griffin.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Harpy.png",
+      "PackagePath": "staticwebassets\\img\\Harpy.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Hym.png",
+      "PackagePath": "staticwebassets\\img\\Hym.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\IceGiant.png",
+      "PackagePath": "staticwebassets\\img\\IceGiant.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Katakan.png",
+      "PackagePath": "staticwebassets\\img\\Katakan.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Mountains.png",
+      "PackagePath": "staticwebassets\\img\\Mountains.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Nekker.png",
+      "PackagePath": "staticwebassets\\img\\Nekker.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Nightwraith.png",
+      "PackagePath": "staticwebassets\\img\\Nightwraith.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Noonwraith.png",
+      "PackagePath": "staticwebassets\\img\\Noonwraith.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Penitent.png",
+      "PackagePath": "staticwebassets\\img\\Penitent.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\PlagueMaiden.png",
+      "PackagePath": "staticwebassets\\img\\PlagueMaiden.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Rotfiend.png",
+      "PackagePath": "staticwebassets\\img\\Rotfiend.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Ruins.png",
+      "PackagePath": "staticwebassets\\img\\Ruins.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Settlement.png",
+      "PackagePath": "staticwebassets\\img\\Settlement.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Striga.png",
+      "PackagePath": "staticwebassets\\img\\Striga.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Swamp.png",
+      "PackagePath": "staticwebassets\\img\\Swamp.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\WaterHag.png",
+      "PackagePath": "staticwebassets\\img\\WaterHag.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Werewolf.png",
+      "PackagePath": "staticwebassets\\img\\Werewolf.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\WitcherSchools.png",
+      "PackagePath": "staticwebassets\\img\\WitcherSchools.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\Wyvern.png",
+      "PackagePath": "staticwebassets\\img\\Wyvern.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\img\\leshen.png",
+      "PackagePath": "staticwebassets\\img\\leshen.png"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\artor\\Documents\\Python\\HW\\2024\\Final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Final.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Final.props",
+      "PackagePath": "build\\Final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Final.props",
+      "PackagePath": "buildMultiTargeting\\Final.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Final.props",
+      "PackagePath": "buildTransitive\\Final.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
